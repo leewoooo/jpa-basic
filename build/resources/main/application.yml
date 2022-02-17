@@ -4,3 +4,8 @@ spring:
     username: sa
     password:
     url: jdbc:h2:tcp://localhost/~/dev/program/h2/basic
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
